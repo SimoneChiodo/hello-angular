@@ -8,6 +8,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 
 
 export const routes: Routes = [  
+    { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "home", component: HomeComponent },
     { path: "services", component: ServicesComponent },
     { path: "about-me", component: AboutMeComponent },

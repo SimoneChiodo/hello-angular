@@ -4,3 +4,4 @@
 - utilizzo di routing per fare l'accesso alle varie pagine
 - importazione di bootstrap
 - creazione di una navbar con bootstrap
+- utilizzo di routerLink nella navbar per caricamento dinamico delle rotte
