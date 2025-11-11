@@ -5,3 +5,20 @@
     {{ macchina }}
   </li>
 </ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Cognome</th>
+      <th>Matricola</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let studente of elencoStudenti">
+      <td>{{ studente.nome }}</td>
+      <td>{{ studente.cognome }}</td>
+      <td>{{ studente.matricola }}</td>
+    </tr>
+  </tbody>
+</table>

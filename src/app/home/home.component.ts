@@ -11,4 +11,10 @@ export class HomeComponent {
   
   elencoMacchine: string[] = ["Lamborghini", "Fiat", "BMW", "Subaru"]
 
+  elencoStudenti: any = [
+    { nome: "Maurizio", cognome: "Rossi", matricola: "ABC123" },
+    { nome: "Valentino", cognome: "Bianchi", matricola: "ABC124" },
+    { nome: "Rosa", cognome: "Panza", matricola: "ABC125" },
+  ]
+
 }
