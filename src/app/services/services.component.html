@@ -1,1 +1,37 @@
 <p>services works!</p>
+
+<div class="row g-3">
+  <div class="col-md-6">
+    <label for="inputNome" class="form-label">Nome</label>
+    <input type="text" class="form-control" id="inputNome" [(ngModel)]="nome">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPrezzo" class="form-label">Prezzo</label>
+    <input type="number" class="form-control" id="inputPrezzo" [(ngModel)]="prezzo" min="0">
+  </div>
+  <div class="col-md-12">
+    <label for="inputDescrizione" class="form-label">Descrizione</label>
+    <textarea class="form-control" id="inputDescrizione" [(ngModel)]="descrizione"></textarea>
+  </div>
+
+  <button class="btn btn-primary btn-block" >Salva</button>
+</div>
+
+<hr />
+
+<table class="table table-striped-columns table-bordered">
+  <thead>
+    <tr>
+      <th>Nome:</th>
+      <th>Prezzo:</th>
+      <th>Descrizione:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nome</td>
+      <td>prezzo</td>
+      <td>descrizione</td>
+    </tr>
+  </tbody>
+</table>
