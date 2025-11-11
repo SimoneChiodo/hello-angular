@@ -28,10 +28,10 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>nome</td>
-      <td>prezzo</td>
-      <td>descrizione</td>
+    <tr *ngFor="let prodotto of elencoProdotto">
+      <td>{{ prodotto.nome }}</td>
+      <td>{{ prodotto.prezzo }}</td>
+      <td>{{ prodotto.descrizione }}</td>
     </tr>
   </tbody>
 </table>

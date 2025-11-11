@@ -7,3 +7,4 @@
 - utilizzo di routerLink nella navbar per caricamento dinamico delle rotte
 - creazione di 2 liste con typescript nel componente home e stampa in html con lista ordinata e tabella dei dati
 - creazione di un form nella pagina di contatti dove vengono sincronizzati vari campi (email, password, dropdown e checkbox) con il codice typescript, per venire poi mostrati in pagina
+- creazione di un form nella pagina di servizi dove una volta cliccato salva, i campi presenti nel form, creano un nuovo oggetto Prodotto (una classe) che viene mostrato in una tabella nella stessa pagina

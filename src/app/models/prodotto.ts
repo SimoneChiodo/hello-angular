@@ -5,7 +5,7 @@ export class Prodotto {
   prezzo: number | undefined;
 
   // Costruttore
-  constructor(varNome: string, varDescrizione: string, varPrezzo: number) {
+  constructor(varNome: string | undefined, varDescrizione: string | undefined, varPrezzo: number | undefined) {
     this.nome = varNome;
     this.descrizione = varDescrizione;
     this.prezzo = varPrezzo;
