@@ -13,4 +13,9 @@ export class ServicesComponent {
   descrizione: string | undefined;
   prezzo: number | undefined;
 
+  salva(): void {
+    console.log("CIAO");
+    
+  }
+
 }
