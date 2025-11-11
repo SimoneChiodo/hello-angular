@@ -8,8 +8,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 
 
 export const routes: Routes = [  
-    { path: "/home", component: HomeComponent },
-    { path: "/services", component: ServicesComponent },
-    { path: "/about-me", component: AboutMeComponent },
-    { path: "/contacts", component: ContactsComponent },
+    { path: "home", component: HomeComponent },
+    { path: "services", component: ServicesComponent },
+    { path: "about-me", component: AboutMeComponent },
+    { path: "contacts", component: ContactsComponent },
 ];
