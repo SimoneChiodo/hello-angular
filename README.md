@@ -1,2 +1,6 @@
 - creazione componente base
 - utilizzo di routing per gestire le varie rotte. 
+- creazione di 4 pagine come componenti
+- utilizzo di routing per fare l'accesso alle varie pagine
+- importazione di bootstrap
+- creazione di una navbar con bootstrap
