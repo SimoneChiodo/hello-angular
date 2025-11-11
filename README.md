@@ -5,3 +5,4 @@
 - importazione di bootstrap
 - creazione di una navbar con bootstrap
 - utilizzo di routerLink nella navbar per caricamento dinamico delle rotte
+- creazione di 2 liste con typescript nel componente home e stampa in html con lista ordinata e tabella dei dati
